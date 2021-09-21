@@ -1,0 +1,79 @@
+.profilepage{
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+    margin-bottom: 2rem;
+}
+.propage-img{
+    padding-right: 10px;
+}
+.propage-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.propage-UserName{
+    margin-top: 5px;
+    font-weight: 900;
+    color: white;
+}
+.propage-UserID{
+    color: white;
+}
+.propage{
+    background: #F5F5F5;
+    border-top-left-radius: 25px;
+    width: 74%;
+    overflow: auto;
+    position: absolute;
+    top: 160px;
+    right: 0;
+    bottom: 0;
+}
+.propagemain{
+    width: 74%;
+    float: right;
+}
+.propad{
+    padding: 20px 100px;
+}
+.probtn Button{
+    background: none;
+    border: none !important;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    box-shadow: none !important;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.probtn Button:hover{
+    background: none;
+    border: none !important;
+    color: black;
+    box-shadow: none !important;
+}
+.probtn Button:focus{
+    background: none;
+    border: none !important;
+    color: black;
+    box-shadow: none !important;
+}
+.probtn {
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:991px){
+    .propage{
+        width: 100%;
+    }
+    .propad{
+        padding: 20px;
+    }
+    .propagemain{
+        width: 100%;
+    } 
+}

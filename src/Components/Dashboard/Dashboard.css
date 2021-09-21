@@ -1,0 +1,248 @@
+.Dashboard{
+    background: #F5F5F5;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    width: 74%;
+    overflow: auto;
+    position: absolute;
+    top: 116px;
+    right: 0;
+    bottom: 0;
+}
+.card{
+    background: white;
+    width: 80%;
+    margin: auto;
+    height: 404px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 7px rgb(212, 212, 212);
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 248px;
+}
+.match-detials{
+    padding: 10px 30px;
+}
+.match-name{
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}
+.match-name span{
+    font-weight: 200;
+    color: gray;
+}
+.over-run{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF0000;
+}
+.match-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.live{
+    width: 53px;
+    height: 26px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #FF0000;
+}
+.logo{
+    background: #68AB2C;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31px;
+    border-radius: 50%;
+}
+.logo img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.logo-ponit{
+    width: 74px;
+    line-height: 17px;
+    margin-top: 10px;
+    height: 32px;
+    border: 1px solid #E4E4E4;
+    background: #F5F5F5;
+    align-items: center;
+    gap: 2px;
+    border-radius: 30px;
+    display: flex;
+}
+.px{
+    font-size: 14px;
+    font-weight: 400;
+}
+.time-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.time{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+}
+.start{
+    color: #007FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Dashboardmain-tabs{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -14px;
+    float: right;
+}
+.day{
+    margin-top: 10px;
+}
+.event-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.stakeINR{
+    padding-top: 5px;
+}
+.betcard{
+    margin-top: 5px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.time-cont{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.tearm-icon{
+    width: 37px;
+    height: 37px;
+}
+.tearm-icon img{
+    width: 37px;
+    height: 37px;
+}
+.bet-card-flex{
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E4E4E4;
+    justify-content: space-between;
+}
+.bet-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bet-rate{
+    text-align: center;
+    width: 59px;
+    height: 42px;
+    background: #F0FFE3;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+.rate-font{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+.rate-color{
+    color: #30960B;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.stakemain{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stake{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.staketext{
+    color: rgba(60, 60, 67, 0.6);
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.stakeINR{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.bet-stake-INR{
+    /* color: #EE173D; - */
+    color: #26A527;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.mybet{
+    margin-left: 165px !important;
+}
+
+.empty-data{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width:991px){
+    .tabs{
+        /* height: 90vh; */
+        width: 100%;
+    }
+    .Dashboard{
+        width: 100%;
+        padding: 10px;
+    }
+    .match-detials{
+        padding: 10px;
+    }
+    .Dashboardmain-tabs{
+        width: 100%;
+    }
+    .stakemain{
+        padding: 10px;
+    }
+    .bet-card-flex{
+        padding: 10px;
+    }
+    .card{
+        width: 100%;
+    }
+    .betcard{
+        margin-top: 10px;
+        width: 100%;
+    }
+}

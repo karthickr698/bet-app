@@ -1,0 +1,314 @@
+.betsup-main{
+    background: #F5F5F5;
+    border-top-left-radius: 25px;
+    width: 74%;
+    overflow: auto;
+    position: absolute;
+    top: 196px;
+    padding: 20px 50px;
+    right: 0;
+    bottom: 0;
+}
+.bet-rate-{
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 59px;
+    height: 42px;
+    background: #FFCBCB;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+.players{
+    background-color: #b9b9b9;
+    padding: 5px 10px;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.profilepage-border{
+    margin: 0;
+    border-bottom: 1px solid #b9b9b9;
+    padding: 10px;
+}
+.bet-match-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.bet-mac-flex{
+    align-items: center;
+}
+.match-live{
+    border-radius: 20px;
+    border: 2px solid white;
+    height: 33px !important;
+}
+.bet-match-img img{
+    zoom: 0.3;
+}
+.tabs8 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: black !important;
+}
+.tabs8 .ant-tabs-tab-btn{
+    color: #333333 !important;
+}
+.tabs8 .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap{
+    flex: none !important;
+    display: block !important;
+}
+.tabs9{
+    margin-top: -12px !important;
+}
+.bets{
+    width: 100%;
+}
+.bet-match-name{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.over-run-color{
+    color: white !important;
+}
+.bet-over-run{
+    font-size: 14px;
+    font-weight: 500;
+}
+.over-run-color1{
+    color: black !important;
+}
+.bet-match-name span{
+    font-size: 16px;
+    font-weight: 200;
+}
+.match{
+    background-color: black !important;
+    padding: 0 !important;
+}
+.Overs{
+    padding: 0;
+    width: 100% !important;
+}
+.padding-all{
+    padding: 20px;
+}
+.rate-color-{
+    color: #FF0707;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+}
+.betsup-card-flex{
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.betsup-cost-flex-main{
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.betsup-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.betset-card-flex{
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.betsup-cost-main{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    top: 139px;
+    right: 0;
+    left: 0;
+}
+.betsup-cost-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.betsup-input-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.betsup-font{
+    font-size: 16px;
+    font-weight: 800;
+}
+.betsup-INR-flex{
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.betsup-INR-flex Input{
+    background-color: #F5F5F5;
+    
+    font-weight: 400;
+    font-size: 18px;
+    height: 50px;
+}
+.conut-box{
+    width: fit-content;
+    padding: 10px;
+    height: 35PX;
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    opacity: 40%;
+    font-weight: 800;
+    color: white;
+}
+.overall{
+    color: #EE173D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.betsup-INR{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.inr-font{
+    font-size: 16px;
+    font-weight: 800;
+    color: #30960B;
+}
+.WINNING-font{
+    font-size: 13px;
+    color: rgba(60, 60, 67, 0.6);
+}
+.rate-font{
+    padding-top: 10px;
+}
+
+.options-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options-sub-cont{
+    margin-left: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 7px rgb(206, 206, 206);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.options-sub-cont:hover{
+    background-color: #E4E4E4;
+}
+
+.active{
+    background-color: #EE173D;
+    color: #ffffff;
+}
+
+.active:hover{
+    background-color: #EE173D;
+    color: #ffffff;
+}
+.padding{
+    padding-top: 20px;
+}
+.brt-logo{
+    width: 37px;
+    height: 26px;
+    background-color: #30960B;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+.red-color{
+    color: red;
+}
+.table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ .table td, th {
+    border-bottom: 1px solid #333333;
+    text-align: left;
+    padding: 8px;
+  }
+  .table th{
+      color: red;
+  }
+  .table td{
+      color: black;
+  }
+  .table .tr{
+      text-align: center;
+  }
+  .your-bet{
+    background: red;
+    padding: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 25px;
+    color: white !important;
+    width: 100%;
+    overflow: auto;
+  }
+
+@media only screen and (max-width:991px){
+    .propage{
+        width: 100%;
+    }
+    .propad{
+        padding: 20px;
+    }
+    .betsup-main{
+        width: 100%;
+        padding: 20px;
+    }
+    .betsup-flex{
+        width: 100%;
+    }
+
+}

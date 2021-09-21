@@ -1,0 +1,127 @@
+.menu-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sider-main{
+    display: flex;
+}
+.col{
+    height: 85px;
+}
+.BETIT{
+    margin-top: 5px;
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    margin-left: 3rem;
+    padding: 5px;
+}
+.sider .ant-layout-sider-zero-width-trigger{
+    top:5px !important;
+    background: none !important;
+}
+.ant-layout-sider-zero-width-trigger .anticon{
+    font-size: 35px !important;
+    margin-top: 5px;
+}
+.profile{
+    padding: 2rem 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+.pro-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.UserName{
+    margin-top: 15px;
+    font-weight: 900;
+    color: white;
+}
+.UserID{
+    color: white;
+    margin-top: 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-icon{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.border{
+    padding: 1rem 0 0 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+.menu{
+    overflow: auto !important;
+    border-top-right-radius: 25px;
+    height: 100vh !important;
+}
+.wallet{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+}
+.wallettext{
+    font-size: 14px;
+    padding-top: 8px;
+    opacity: 1;
+    font-weight: 800;
+}
+.wallet-icon{
+    margin-top: 7px;
+    cursor: pointer;
+}
+.INR{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.sider{
+    border-top-right-radius: 25px !important;
+}
+.sider ::-webkit-scrollbar {
+    display: none;
+}
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before{
+    border: none !important;
+}
+.sider{
+    position: fixed !important;
+    z-index: 2;
+}
+.tabs{
+    width: 74%;
+    float: right;
+    margin-top: -14px;
+}
+.ant-tabs-tab{
+    color: white !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: white !important;
+    font-weight: 800 !important;
+}
+
+.ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav{
+    padding: 0 28px;
+}
+
+@media only screen and (max-width:991px){
+    .tabs{
+        /* height: 90vh; */
+        width: 100%;
+    } 
+}

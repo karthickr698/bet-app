@@ -1,0 +1,126 @@
+.login{
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 25px;
+    width: 100%;
+    overflow: auto;
+}
+.loginmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 10px 0;
+    justify-content: center
+}
+.login ::-webkit-scrollbar {
+    display: none !important;
+}
+.name{
+    margin-top: 10px;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    height: 30px;
+    line-height: 17px;
+    margin-bottom: 40px;
+    letter-spacing: 0.217059px;
+    color: #666666;
+}
+.forgot-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+.BETHome{
+    height: 100vh;
+}
+.signup-btn{
+    text-align: center;
+}
+.signup-btn Button{
+    background-color: #000000;
+    width: 100%;
+    border-color: #000000;
+    color: #ffffff;
+}
+.signup-btn Button:hover{
+    background-color: #000000;
+    border-color: #000000;
+}
+.signup-btn Button:focus{
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.name span{
+    color: red;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.form-alert {
+    width: 90%;
+    font: normal normal 600 16px Segoe UI;
+    color: #ff0000;
+    padding-top: 10px;
+  }
+
+.tabs2{
+    padding-top: 7%;
+    width: 35%;
+    margin: auto;
+}
+
+.login-btn{
+    padding-top: 10px;
+}
+.forgot-password{
+    text-align: right;
+}
+ .ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav{
+    justify-content: center !important;
+}
+.forgot{
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 25px;
+    width: 35%;
+    overflow: auto;
+    position: relative;
+    top: 160px;
+}
+
+.forgot-password-font{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:992px){
+    .login{
+        padding: 20px 30px;
+        width: 95%;
+    }
+    .forgot{
+        padding: 20px 30px;
+        width: 95%;
+        position: relative;
+        top: 80px;
+    }
+    .tabs2{
+        width: 95%;
+        margin: auto;
+    }
+}
