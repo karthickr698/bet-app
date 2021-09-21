@@ -5,7 +5,7 @@ import { BASE_URL } from "../utils/env";
 export const AuthContext = React.createContext({});
 
 export default function Auth({ children }) {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [user, setUser] = useState({});
 
@@ -22,11 +22,11 @@ export default function Auth({ children }) {
         setIsAuthenticated(res.data.isAuthenticated);
         console.log(res.data);
         setUser({ ...res.data.user });
-        setIsAuthenticated(true);
+        //setIsAuthenticated(true);
       })
       .catch((err) => {
         setIsLoading(false);
-        setIsAuthenticated(true);
+        setIsAuthenticated(false);
       });
   };
 
