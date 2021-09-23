@@ -21,11 +21,11 @@ const Match = (props) => {
         <div className="bet-match-flex">
           <div>
             <div className="bet-match-name">
-              Australia <span>VS</span> India
+              KKR <span>VS</span> MI
             </div>
-            <div className="over-run over-run-color">
+            {/* <div className="over-run over-run-color">
               AUS: 123/0 in 18.5 Overs
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="live match-live">Live</div>

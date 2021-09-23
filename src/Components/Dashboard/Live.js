@@ -63,11 +63,11 @@ const Dashboard = () => {
                         <div className="match-flex">
                           <div>
                             <div className="match-name">
-                              Australia <span>Vs</span> India
+                              KKR <span>Vs</span> MI
                             </div>
-                            <div className="over-run">
+                            {/* <div className="over-run">
                               AUS: 123/0 in 18.5 Overs
-                            </div>
+                            </div> */}
                           </div>
                           <div className="live">LIVE</div>
                         </div>
